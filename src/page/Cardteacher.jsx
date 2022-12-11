@@ -4,13 +4,13 @@ const NameCard = (props) => {
     return (
     <div style={divStyle}>
         <p>
-            Name: John Snow {props.name}
+            Name : John Snow {props.name}
         </p>
         <p>
-            Email: jsnow@nvctrainingcenter.com {props.email}
+            Email : jsnow@nvctrainingcenter.com {props.email}
         </p>
         <p>
-            Speciallist: Mobile Application{props.specialist}
+            Speciallist : Mobile Application{props.specialist}
         </p>
     </div>
     )
