@@ -1,12 +1,15 @@
 import React from 'react';
 import MainLayout from '../Layouts/MainLayout';
-const Home = () => {
+import Cardteacher from './Cardteacher';
+const Teacher = () => {
   return (
     <MainLayout>
     <div style={divStyle}>
-    <h1>คณาอาจารย์ผู้สอน</h1>
+    <h1>คณาจารย์ผู้สอน</h1>
+    <Cardteacher/>
     </div>
     </MainLayout>
+    
   )
 }
 const divStyle={
@@ -16,4 +19,4 @@ const divStyle={
   marginRight: '10%',
   marginBottom: 15,
 }
-export default Home;
+export default Teacher;

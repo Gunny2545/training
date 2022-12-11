@@ -4,16 +4,13 @@ const NameCard = (props) => {
     return (
     <div style={divStyle}>
         <p>
-            Basic React Native {props.title}
+            Name: John Snow {props.name}
         </p>
         <p>
-            Duration : 5 days {props.duration}
+            Email: jsnow@nvctrainingcenter.com {props.email}
         </p>
         <p>
-            Price for 1 person : 7500{props.price1}
-        </p>
-        <p>
-            Price for 2 person : 6900{props.price2}
+            Speciallist: Mobile Application{props.specialist}
         </p>
     </div>
     )
